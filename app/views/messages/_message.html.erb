@@ -1,3 +1,4 @@
 <div class="message">
   <p><%= message.content %></p>
+  <p><%= link_to '削除', room_path(message.id), method: :delete %></p>
 </div>
