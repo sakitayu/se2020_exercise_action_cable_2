@@ -9,10 +9,10 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 # gem 'sqlite3'
 
 # 開発環境(ローカル)ではSQLite3を使用
-gem 'sqlite3', group: :development
+# gem 'sqlite3', group: :development
 
 # 本番環境(heroku)ではPostgreSQLを使用
-gem 'pg', group: :production
+gem 'pg'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
